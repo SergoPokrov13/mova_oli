@@ -1,0 +1,130 @@
+.main {
+    width: 100%;
+    margin: 120px 0 0;
+}
+
+.block {
+    height: 320px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: url(../../image/PhonPhoto.png) no-repeat;
+    object-fit: fill;
+    background-position: right;
+    background-size: 55%;
+
+}
+
+.title {
+    color: #533C71;
+    font-family: '"Inter"';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin: 56px 0 20px 0;
+}
+
+.subtitle {
+    color: #533C71;
+    font-family: "Lato Black";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 795px;
+    margin: 0;
+}
+
+.section {
+    margin: 140px 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autor {
+    padding: 80px 0 0;
+}
+
+.autor_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title {
+    width: 100%;
+    text-align: left;
+    color: #533C71;
+    font-family: "Lato Black";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
+
+.autor_image {
+    padding: 30px 100px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(103, 54, 165, 0.84) 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+
+.section_text {
+    max-width: 400px;
+    color: #3F2067;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin: 0;
+    padding: 0 0 0 260px;
+}
+
+.text_block {
+    display: flex;
+    justify-content: right;
+}
+
+.news_slide{
+    padding: 20px 0 50px;
+    border-bottom: solid 1px #6736A5;;
+    border-top: solid 1px #6736A5;;
+}
+
+.news_block {
+    display: flex;
+    gap: 100px;
+}
+
+.news_image{
+    height: 250px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.news_date {
+    color: #3F2067;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.news_text {
+    color: #3F2067;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    max-width: 400px;
+}

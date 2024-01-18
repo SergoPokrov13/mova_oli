@@ -1,0 +1,19 @@
+@import url(./fonts/fonts.css);
+@import url(./style/header/header.css);
+@import url(./style/main/main.css);
+
+html,body{
+    margin: 0;
+}
+
+.root{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: FFFFFF;
+    max-width: 1280px;
+    position: relative;
+}
+
