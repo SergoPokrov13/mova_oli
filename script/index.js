@@ -5,7 +5,6 @@
             this.currentIndex = this.startIndex;
             this.element = element;
             this.slides = this.element.querySelectorAll('.slide');
-            this.setActiveSlide();
             this.next();
             this.prev();
 
