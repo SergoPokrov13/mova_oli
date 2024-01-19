@@ -51,7 +51,7 @@
     const slideShow = document.querySelectorAll('.slideshow');
 
     slideShow.forEach(item => {
-        new SlideShow(0, item)
+        new SlideShow(1, item)
     })
 
 }());
