@@ -7,7 +7,6 @@
             this.slides = this.element.querySelectorAll('.slide');
             this.dots = this.element.querySelectorAll('.photo__dot');
             this.setActiveSlide();
-            this.setActiveDot();
             this.next();
             this.prev();
 
