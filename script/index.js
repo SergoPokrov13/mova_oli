@@ -5,6 +5,7 @@
             this.currentIndex = this.startIndex;
             this.element = element;
             this.slides = this.element.querySelectorAll('.slide');
+            this.setActiveSlide();
             this.next();
             this.prev();
 
@@ -50,7 +51,7 @@
     const slideShow = document.querySelectorAll('.slideshow');
 
     slideShow.forEach(item => {
-        new SlideShow(1, item)
+        new SlideShow(0, item)
     })
 
 }());
