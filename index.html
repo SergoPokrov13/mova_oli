@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +13,12 @@
     <div class="root">
         <header class="header">
             <nav class="header_list">
-                <a class="header_link">Главная</a>
-                <a class="header_link">Об авторе</a>
-                <a class="header_link">Новости</a>
-                <a class="header_link">ГТО</a>
-                <a class="header_link">Портфолио</a>
-                <a class="header_link">Контакты</a>
+                <a href="#" class="header_link link">Главная</a>
+                <a href="#autor" class="header_link link">Об авторе</a>
+                <a href="#news" class="header_link link">Новости</a>
+                <a href="#gto" class="header_link link">ГТО</a>
+                <a href="#portfolio" class="header_link link">Портфолио</a>
+                <a href="#contact" class="header_link link">Контакты</a>
             </nav>
         </header>
         <main class="main">
@@ -26,7 +26,7 @@
                 <p class="title">Изосимова Ольга Сергеевна</p>
                 <p class="subtitle">Учитель физкультуры</p>
             </div>
-            <section class="section autor">
+            <section id="autor" class="section autor">
                 <p class="section_title">Об авторе</p>
                 <div class="autor_block">
                     <img class="autor_image" src="./image/OliPhoto.png" alt="Ольга Сергеевна Фото">
@@ -39,27 +39,99 @@
                     </div>
                 </div>
             </section>
-            <section class="section news">
+            <section id="news" class="section news">
                 <p class="section_title">Новости</p>
-                <div class="news_slide">
-                    <img class="news_image" src="./image/NewsPhoto.png" alt="Новости">
-                    <div class="news_block">
-                        <p class="news_date">16.02.2023</p>
-                        <p class="news_text">Соревнования по лыжной гонке собирают множество зрителей и поклонников,
-                            которые приходят на трассу, чтобы поддержать своих любимых спортсменов и насладиться
-                            захватывающей атмосферой. Лыжные гонки - это не только спортивное событие, но и отличный
-                            способ провести время на свежем воздухе и насладиться зимней природой.</p>
+                <div class="slideshow">
+                    <button data-way="prev" class="slide_btn-prev link"></button>
+                    <div class="news_slide slide">
+                        <img class="news_image" src="./image/News1.jpg" alt="Новости">
+                        <div class="news_block">
+                            <p class="news_date">18.01.2024</p>
+                            <p class="news_text">Тренировка по волейболу.</p>
+                        </div>
+                    </div>
+                    <div class="news_slide slide">
+                        <img class="news_image" src="./image/News2.jpg" alt="Новости">
+                        <div class="news_block">
+                            <p class="news_date">29.12.23</p>
+                            <p class="news_text">Новогодний классный часю.</p>
+                        </div>
+                    </div>
+                    <div class="news_slide slide">
+                        <img class="news_image" src="./image/News3.jpg" alt="Новости">
+                        <div class="news_block">
+                            <p class="news_date">16.11.2023</p>
+                            <p class="news_text">Выполнение компекса ГТО. Зальные виды.</p>
+                        </div>
+                    </div>
+                    <button data-way="next" class="slide_btn-next link"></button>
+                </div>
+            </section>
+            <section id="gto" class="section gto">
+                <p class="section_title">ГТО</p>
+                <p class="gto_subtitle">Всероссийский физкультурно-спортивный комплекс «Готов к труду и обороне» (ГТО) —
+                    это нормативная основа физического воспитания населения страны, нацеленная на развитие массового
+                    спорта.
+                </p>
+                <img class="gto_image" src="./image/GTOPhoto.png" alt="Знаки ГТО">
+                <div class="text_block">
+                    <p class="section_text">Предложение ввести всесоюзные испытания «Готов к труду и обороне» поступило
+                        в 1930 году, а ещё через год был сформирован первый комплекс ГТО, включавший 21 норматив.
+
+                        Возродили комплекс «Готов к труду и обороне» в 2014 году. Был утвержден новый перечень
+                        испытаний, разработаны нормативы, а также дизайн знаков отличия. Их три: золотой, серебряный,
+                        бронзовый.
+                    </p>
+                    <div class="gto_buttons">
+                        <a target="_blank" class="gto_button" href="https://gto.ru/" type="button">Сайт ГТО</a>
+                        <a target="_blank" class="gto_button" href="https://gto.ru/norms" type="button">Нормативы</a>
                     </div>
                 </div>
             </section>
-            <section class="section gto">
-                <p class="section_title">ГТО</p>
+            <section id="portfolio" class="section portfolio">
+                <p class="section_title">Портфолио</p>
+                <p class="portfolio_subtitle">Портфолио учителя физкультуры - это сборник материалов, который показывает
+                    профессиональный уровень и достижения педагога в области физической культуры.
+                </p>
+                <ul class="portfolio_documents">
+                    <li class="portfolio_document">
+                        <p class="portfolio_text">Организация проектной и исследовательской деятельности учащихся</p>
+                        <a class="portfolio_download" href="/doc/1.pdf" download></a>
+                    </li>
+                    <li class="portfolio_document">
+                        <p class="portfolio_text">Сертификат. Ивановская федерация баскетбола</p>
+                        <a class="portfolio_download" href="/doc/2.pdf" download></a>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" class="section contact">
+                <p class="section_title">Контакты</p>
+                <div class="conatct_block">
+                    <div class="text_block">
+                        <div class="contact_list">
+                            <p class="contact_text">Почта:</p>
+                            <a class='contact_link link' href="mailto:izosimova_98@bk.ru">izosimova_98@bk.ru</a>
+                        </div>
+                        <div class="contact_list">
+                            <p class="contact_text">VK:</p>
+                            <a class='contact_link link' target="_blank" href="https://vk.com/98movaoli">98movaoli</a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
-        <footer class="footer">
-
-        </footer>
     </div>
+    <footer class="footer">
+        <nav class="footer_list">
+            <a href="#" class="footer_link link">Главная</a>
+            <a href="#autor" class="footer_link link">Об авторе</a>
+            <a href="#news" class="footer_link link">Новости</a>
+            <a href="#gto" class="footer_link link">ГТО</a>
+            <a href="#portfolio" class="footer_link link">Портфолио</a>
+            <a href="#contact" class="footer_link link">Контакты</a>
+        </nav>
+    </footer>
+    <script src="../script/index.js"></script>
 </body>
 
 </html>

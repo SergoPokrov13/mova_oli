@@ -1,20 +1,19 @@
-.header {
+.footer {
     max-height: 100px;
     display: flex;
     justify-content: center;
     width: 100%;
-    position: fixed;
-    top: 0;
-    background: #FFF;
+    background: #3F2067;
+    margin: 120px 0 0;
 }
 
-.header_list {
+.footer_list {
     display: flex;
     gap: 30px;
 }
 
-.header_link {
-    color: #533C71;
+.footer_link {
+    color: #FFF;
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;

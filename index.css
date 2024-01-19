@@ -1,6 +1,7 @@
 @import url(./fonts/fonts.css);
 @import url(./style/header/header.css);
 @import url(./style/main/main.css);
+@import url(./style/footer/footer.css);
 
 html,body{
     margin: 0;
@@ -17,3 +18,69 @@ html,body{
     position: relative;
 }
 
+.slideshow{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: none;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.15;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slide.active {
+    display: block;
+    animation: opacity ease-in-out 0.5s;
+}
+
+.slide_btn-prev{
+    background: url(./image/ArrowPrev.svg) no-repeat;
+    width: 50px;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    position: relative;
+    left: 0;
+    top: 45%;
+    margin: 0 40px 0 0;
+}
+
+.slide_btn-next{
+    background: url(./image/ArrowNext.svg) no-repeat;
+    width: 50px;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    position: relative;
+    right: 0;
+    top: 45%;
+    margin: 0 0 0 40px;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+}
+
+.link{
+    opacity: 1;
+}
+
+.link:hover{
+    opacity: 0.5;
+}
