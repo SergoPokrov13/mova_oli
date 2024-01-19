@@ -13,17 +13,6 @@
 
         }
 
-        setActiveDot() {
-            this.dots.forEach((item, index,) => {
-                if (index === this.currentIndex) {
-                    item.classList.add('photo__dot-active');
-                } else {
-                    item.classList.remove('photo__dot-active');
-                }
-            })
-
-        }
-
         setActiveSlide() {
             this.slides.forEach((item, index,) => {
                 if (index === this.currentIndex) {
@@ -44,7 +33,6 @@
                     this.currentIndex--;
                 }
                 this.setActiveSlide();
-                this.setActiveDot()
             })
         }
 
@@ -56,8 +44,7 @@
                 } else {
                     this.currentIndex++;
                 }
-                this.setActiveSlide();
-                this.setActiveDot()    
+                this.setActiveSlide();   
             })
 
         }
