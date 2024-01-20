@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     background: #FFF;
+    z-index: 100;
 }
 
 .header_list {
