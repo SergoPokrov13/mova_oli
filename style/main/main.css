@@ -518,9 +518,8 @@
     }
 
     .news_text {
-        max-width: 240px;
+        width: 240px;
         height: 30px;
-        font-size: 12px;
     }
     
 }
