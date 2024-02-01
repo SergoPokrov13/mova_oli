@@ -275,6 +275,8 @@
 }
 
 @media screen and (max-width: 840px) {
+
+
     .section {
         margin: 110px 0 0;
     }
@@ -303,8 +305,10 @@
     }
 
     .section_text {
-        font-size: 14;
-        padding: 0 0 0 150px;
+        font-size: 12px;
+        width: 300px;
+        padding: 0;
+
     }
     
     .news_image {
@@ -314,6 +318,10 @@
     
     .news_date {
         font-size: 14px;
+    }
+
+    .news_text {
+        font-size: 12px;
     }
 
     .gto_image {
@@ -372,16 +380,23 @@
 
 @media screen and (max-width: 600px) {
     .section {
-        margin: 110px 0 0;
+        margin: 90px 0 0;
     }
     
     .title {
-        font-size: 18px;
+        font-size: 16px;
+        margin: 0 0 20px;
     }
     
     .subtitle {
-        font-size: 65px;
-        width: 500px;
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .block {
+        width: 300px;
+        height: auto;
+    
     }
 
     .autor {
@@ -393,75 +408,114 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .autor_image {
+        padding: 30px 50px 15px; 
+        background: radial-gradient(50% 50% at 50% 50%, rgba(103, 54, 165, 0.84) 0%, rgba(217, 217, 217, 0.00) 100%);
+        width: 200px;
+        object-fit: contain;
+    }
     
     .section_title {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .section_text {
         font-size: 14;
-        padding: 0 0 0 150px;
+        padding: 0;
     }
     
     .news_image {
-        height: 300px;
-        width: 450px
+        height: 200px;
+        width: 240px
+    }
+
+    .news_slide {
+        padding: 20px 0 10px;
+        margin: 20px 0 0;
+    }
+
+    .news_block {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
     }
     
     .news_date {
-        font-size: 14px;
+        font-size: 12px;
+        order: 2;
     }
 
     .gto_image {
-        max-width: 270px;
+        max-width: 180px;
         padding: 20px 0;
     }
     
     .gto_subtitle {
-        font-size: 18px;
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .text_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0 0;
     }
     
     .gto_buttons {
-        padding: 0 0 0 150px;
-        margin: 40px 0 0;
-        gap: 20px;
+        padding: 0;
+        margin: 30px 0 0;
+        gap: 15px;
+    }
+
+    .gto_button {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
     }
     
     .portfolio_subtitle {
-        font-size: 20px;
-        max-width: 500px;
+        font-size: 14px;
+        max-width: 300px;
         margin: 20px 0 0;
     }
     
     .portfolio_documents {
-        margin: 50px 0 0;
+        margin: 30px 0 0;
     }
     
     .portfolio_document {
-        padding: 20px 0;
+        padding: 10px 0;
     }
     
     .portfolio_text {
-        font-size: 16px;
+        font-size: 10px;
+        max-width: 240px;
     }
     
     .portfolio_download {
         background-size: cover;
-        height: 35px;
-        width: 35px;
+        height: 25px;
+        width: 25px;
     }
 
     .contact_list {
         margin: 0 0 20px;
-        padding: 0 0 0 150px;
+        padding: 0;
     }
     
     .contact_text {
-        font-size: 18px;
+        font-size: 14px;
     }
     
     .contact_link {
-        font-size: 18px;
+        font-size: 14px;
+    }
+
+    .main {
+        margin: 80px 0 0;
     }
     
 }
+

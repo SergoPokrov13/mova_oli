@@ -106,3 +106,23 @@ html,body{
     }
     
 }
+
+@media screen and (max-width: 600px) {
+    .root{
+        padding: 10px;
+    }
+
+    .slide_btn-prev{
+        width: 20px;
+        height: 20px;
+        top: 150px;
+        margin: 0 10px 0 0;
+    }
+    
+    .slide_btn-next{
+        width: 20px;
+        height: 20px;
+        top: 150px;
+        margin: 0 0 0 10px;
+    }
+}

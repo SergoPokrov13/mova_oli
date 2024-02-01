@@ -55,3 +55,9 @@
     })
 
 }());
+
+$(document).ready(function(){
+    $('.menu__burger').click(function(event){
+        $('.menu__burger,.header_link,.span,.header_list').toggleClass('active');
+    });
+});

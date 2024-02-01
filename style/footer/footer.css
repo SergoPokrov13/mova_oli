@@ -40,3 +40,19 @@
         margin: 30px 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .footer {
+        max-height: 50px;
+        margin: 60px 0 0;
+    }
+    
+    .footer_list {
+        gap: 5px;
+    }
+    
+    .footer_link {
+        font-size: 9px;
+        margin: 20px 0;
+    }
+}
